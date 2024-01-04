@@ -1,0 +1,15 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+header{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding:10px;
+    background-color: #fff;
+}
+.project-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+}

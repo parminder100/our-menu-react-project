@@ -1,0 +1,125 @@
+.our__menu__grid{
+    max-width: 1230px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.our__menu__main{
+    padding-top: 50px;
+}
+.project__title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #102a42;
+    text-transform: capitalize;
+}
+.underline{
+    width: 70px;
+    height: 5px;
+    background-color: #c59d5f;
+    margin: auto;
+}
+.search__menu{
+    border-radius: 8px;
+    border: 3px solid #c59d5f;
+    padding: 0px 15px;
+    outline: none;
+}
+.our__menu__title__container{
+    text-align: center;
+    margin-bottom: 34px;
+}
+.menu__category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    list-style-type: none;
+    margin-bottom: 60px;
+    padding-inline-start: 0px;
+}
+@media (max-width: 768px) {
+    .menu__category{
+        flex-direction: column;
+    }
+}
+.btn{
+    background-color: transparent;
+    padding: 0.375rem 0.75rem;
+    text-transform: capitalize;
+    border: 1px solid #c59d5f;
+    border-radius: 8px;
+    transition: all 0.3s linear;
+    color: #c59d5f;
+}
+.btn:hover{
+    background-color: #c59d5f;
+    color: #fff;
+}
+.menu__items__list{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+@media (max-width: 768px) {
+    .menu__items__list{
+        flex-direction: column;
+    }
+}
+.menu__items__list .menu__name__price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px dotted #617d98;
+}
+.menu__desc{
+    padding-top: 16px;
+    font-size: 16px;
+    color: #617d98;
+}
+.menu__name__price p{
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 0.25rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.menu__name__price .price{
+    letter-spacing: normal;
+    color: #c59d5f;
+}
+.menu__items__list img{
+    width: 100%;
+    min-width: 244px;
+    object-fit: cover;
+    height: 150px;
+    border: 0.25rem solid #c59d5f;
+    border-radius: 8px;
+}
+@media (max-width: 991px) {
+    .menu__items__list img{
+        min-width: 346px;
+    }
+}
+@media (max-width: 768px) {
+    .menu__items__list img{
+        min-width: unset;
+    }
+    .menu__row{
+        padding-right: 0px;
+        display: contents;
+    }
+}
+.menu__item__card{
+    margin-bottom: 48px;
+}
+@media (max-width: 768px) {
+    .menu__item__card{
+        margin-bottom: 10px;
+    }
+}
+.btn--active{
+    background-color: #c59d5f;
+    color: #fff;
+}
